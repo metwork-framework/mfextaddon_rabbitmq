@@ -4,7 +4,7 @@
 ## [Unreleased]
 
 ### New Features
-- add some examples
+- first version with erlang and rabbitmq-server extracted from rpms
 
 
 
