@@ -5,7 +5,7 @@ export NAME=erlang
 export VERSION=22.3
 export EXTENSION=rpm
 export CHECKTYPE=MD5
-export CHECKSUM=fd0d9d5b639e53cad4da60c983e90869
+export CHECKSUM=99d95be2bc9d55dca3d4e96f6f45e102
 DESCRIPTION=\
 This is a (virtually) zero dependency 64-bit Erlang RPM package that provides just enough to run RabbitMQ. It may be easier to install than other Erlang RPMs in most environments. It may or may not be suitable for running other Erlang-based software or 3rd party RabbitMQ plugins.²
 WEBSITE=https://github.com/rabbitmq/erlang-rpm
