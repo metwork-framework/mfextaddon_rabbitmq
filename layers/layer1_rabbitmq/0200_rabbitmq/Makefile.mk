@@ -5,7 +5,7 @@ export NAME=rabbitmq-server
 export VERSION=3.8.3
 export EXTENSION=rpm
 export CHECKTYPE=MD5
-export CHECKSUM=3bd46e0d990ea2babc37df1aefe836c8
+export CHECKSUM=8a0014d1adbf5aefae06bcd8df9300a1
 DESCRIPTION=\
 RABBITMQ is an open source multi-protocol messaging broker
 WEBSITE=https://www.rabbitmq.com
