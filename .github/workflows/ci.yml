@@ -83,6 +83,7 @@ jobs:
             mkdir -p ${REMOTE}
           scp: |
             '${LOCAL}/*' => ${REMOTE}
+
       - name: integration tests
         if: ${{ steps.SetVariables.outputs.branch != 'null' && steps.BuildStep.outputs.bypass == 'false' }}
         run: |
@@ -166,6 +167,7 @@ jobs:
           repository: metwork-framework/mfbus
           event-type: metwork-trigger-${{ steps.SetVariables.outputs.branch }}
           client-payload: '{"branch": "${{ steps.SetVariables.outputs.branch }}", "os": "${{ steps.SetVariables.outputs.os }}"}'
+
 
 
 
