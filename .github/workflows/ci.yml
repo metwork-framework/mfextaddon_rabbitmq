@@ -32,6 +32,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
+
     steps:
       - name: checkout
         uses: actions/checkout@v4
@@ -154,7 +155,6 @@ jobs:
           repository: metwork-framework/mfbus
           event-type: metwork-trigger-${{ steps.SetVariables.outputs.branch }}
           client-payload: '{"branch": "${{ steps.SetVariables.outputs.branch }}", "os": "${{ steps.SetVariables.outputs.os }}"}'
-
 
 
 
